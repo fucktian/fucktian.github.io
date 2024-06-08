@@ -64,3 +64,9 @@
 [data-theme='dark'] #footer-wrap a {
   color: var(--light-grey);
 }
+:root {
+  --card-bg: rgba(255,255,255,0.8) !important;
+}
+[data-theme='dark']:root {
+  --card-bg: rgba(18,18,18,0.8) !important;
+}
